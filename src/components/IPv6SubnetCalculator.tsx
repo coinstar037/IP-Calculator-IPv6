@@ -79,9 +79,7 @@ export default function IPv6SubnetCalculator() {
 
   useEffect(() => {
     if (results) {
-      setShowSaveAnimation(true);
-      const timer = setTimeout(() => setShowSaveAnimation(false), 2000);
-      return () => clearTimeout(timer);
+          return () => clearTimeout(timer);
     }
   }, [results]);
 
