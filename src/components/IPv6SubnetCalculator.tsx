@@ -74,7 +74,6 @@ export default function IPv6SubnetCalculator() {
   const [results, setResults] = useState<IPv6SubnetResults | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [copied, setCopied] = useState<string>('');
-  const [showSaveAnimation, setShowSaveAnimation] = useState(false);
   const [exportClicked, setExportClicked] = useState(false);
 
   useEffect(() => {
